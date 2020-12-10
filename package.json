@@ -1,0 +1,10 @@
+{
+	"scripts": {
+		"demo": "parcel build ./src/index.html",
+		"build": "parcel build './src/banners/*/index.html'"
+	},
+	"dependencies": {
+		"@mischnic/parcel-namer-preserve-structure": "^0.1.2",
+		"parcel": "^2.0.0-nightly.475"
+	}
+}
